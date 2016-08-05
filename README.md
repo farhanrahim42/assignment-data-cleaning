@@ -39,8 +39,8 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
   ### library(dplyr)
   ### groupData <- finalData %>%
-    ### group_by(subject, activity) %>%
-    ### summarise_each(funs(mean))
+   ### group_by(subject, activity) %>%
+   ### summarise_each(funs(mean))
 
   ### write.table(groupData, "./data/MeanData.txt", row.names = FALSE)
 
